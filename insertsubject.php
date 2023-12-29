@@ -50,8 +50,8 @@
 </div>
 <script type="text/javascript">
 !function(){
-	laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
-	laydate({elem: '#birthday'});//绑定元素
+	laydate.skin('molv');
+	laydate({elem: '#birthday'});
 }();
 </script>
 </body>
