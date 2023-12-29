@@ -7,7 +7,6 @@ $username = $_REQUEST['username'];
 $password = $_REQUEST['password'];
 $password2 = sha1($password);
 
-//sql语句中字符串数据类型都要加引号，数字字段随便
 $sql = "INSERT INTO user (id, username, password, status) VALUES (null, '$username', '$password2', 1)";
 
 // Create connection
